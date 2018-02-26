@@ -1,41 +1,22 @@
 {
-  "title": "Logo Nav",
-  "name": "startbootstrap-logo-nav",
-  "version": "4.0.0-beta.2",
-  "description": "A Bootstrap template with a logo in the navbar",
-  "keywords": [
-    "css",
-    "sass",
-    "html",
-    "responsive",
-    "theme",
-    "template"
-  ],
-  "homepage": "https://startbootstrap.com/template-overviews/logo-nav",
-  "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-logo-nav/issues",
-    "email": "feedback@startbootstrap.com"
-  },
-  "license": "MIT",
-  "author": "Start Bootstrap",
-  "contributors": [
-    "David Miller (http://davidmiller.io/)"
-  ],
+  "name": "cs147-lab-1",
+  "description": "Serving static content via html files",
+  "version": "0.0.1",
+  "author": "CS147 Staff <cs147@cs.stanford.edu>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BlackrockDigital/startbootstrap-logo-nav.git"
+    "url": "https://github.com/StanfordHCI/cs147"
   },
+  "license": "MIT",
+  "main": "server.js",
   "dependencies": {
-    "bootstrap": "^4.0.0-beta.2",
-    "express-handlebars": "^3.0.0",
-    "jquery": "^3.2.1"
+    "aos": "^2.1.1",
+    "express": "3.x"
+  },
+  "engines": {
+    "node": "0.10.x"
   },
   "devDependencies": {
-    "browser-sync": "2.18.13",
-    "gulp": "^3.9.1"
-  },
-  "main": "gulpfile.js",
-  "scripts": {
-      "start": "node app.js"
+    "dotenv": "^4.0.0"
   }
 }
