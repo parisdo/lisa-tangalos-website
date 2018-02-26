@@ -376,6 +376,13 @@ hr.about-line {
     color: rgba(0, 0, 0, 0.5);
 }
 
+@media screen and (max-width: 767px) {
+    .contact-form {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
 
 /****** INDEX CSS ******/
 
