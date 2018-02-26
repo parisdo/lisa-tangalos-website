@@ -1,0 +1,71 @@
+/* .background.code {
+    background: #97CAEF;
+}
+
+.myrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.project-img {
+    width: 100%;
+}
+
+.col-pic {
+    width: 40%;
+}
+
+.col-descr {
+    width: 40%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.myrow {
+    padding-bottom: 100px;
+}
+
+.button-project-link {
+    display: block;
+    border: 2px solid black;
+    font-family: 'sofia_promedium';
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: .1em;
+    padding: 8px 26px;
+    text-decoration: none;
+    width: fit-content;
+    margin-bottom: 25px;
+}
+
+.button-project-link:hover {
+    background: #222;
+    border-color: #222;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.program-descr {
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .myrow {
+        flex-wrap: wrap;
+    }
+    .col-pic {
+        width: 100%;
+    }
+    .col-descr {
+        width: 100%;
+    }
+} */

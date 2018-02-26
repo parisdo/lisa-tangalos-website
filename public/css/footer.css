@@ -1,0 +1,42 @@
+footer {
+    background: #353535;
+    color: white;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: .035em;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+footer p {
+    font-weight: 300;
+    line-height: 32px;
+    color: white;
+}
+
+
+footer p a {
+    font-weight: 300;
+    line-height: 32px;
+    color: white;
+}
+
+footer p a:hover {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .col-md-4 {
+    padding-bottom: 20px;
+}
+
+.copyright {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgba(255,255,255,0.5);
+}
