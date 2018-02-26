@@ -14,7 +14,7 @@ app.engine('handlebars', exphbs({
 
 app.set('view engine', 'handlebars');
 
-app.set('port', (process.env.PORT || 3000));
+app.set('port', (process.env.PORT));
 
 app.get('/', function (req, res) {
     res.render('index', {
