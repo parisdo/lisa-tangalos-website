@@ -1,41 +1,28 @@
 {
-  "name": "lisatangalos",
+  "name": "teamhproject",
   "version": "1.0.0",
-  "description": "LCSW Website",
+  "description": "COGS 121 Spring 16 Team H Final Project",
   "main": "app.js",
-  "keywords": [
-    "css",
-    "sass",
-    "html",
-    "responsive",
-    "theme",
-    "template"
-  ],
   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node app.js"
-  },
-  "homepage": "https://startbootstrap.com/template-overviews/logo-nav",
-  "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-logo-nav/issues",
-    "email": "feedback@startbootstrap.com"
-  },
-  "license": "MIT",
-  "author": "Start Bootstrap",
-  "contributors": [
-    "David Miller (http://davidmiller.io/)"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BlackrockDigital/startbootstrap-logo-nav.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-beta.2",
-    "express-handlebars": "^3.0.0",
-    "jquery": "^3.2.1"
+    "body-parser": "^1.12.2",
+    "dotenv": "^1.1.0",
+    "express": "^4.13.4",
+    "express-handlebars": "^1.2.2",
+    "express-session": "^1.10.4",
+    "pg": "^4.5.3"
   },
-  "devDependencies": {
-    "browser-sync": "2.18.13",
-    "gulp": "^3.9.1"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshNavi/teamhproject.git"
+  },
+  "author": "TeamH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoshNavi/teamhproject/issues"
+  },
+  "homepage": "https://github.com/JoshNavi/teamhproject#readme"
 }
