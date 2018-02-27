@@ -1,7 +1,7 @@
 {
-  "name": "teamhproject",
+  "name": "lisatangalos",
   "version": "1.0.0",
-  "description": "COGS 121 Spring 16 Team H Final Project",
+  "description": "LCSW Website",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JoshNavi/teamhproject.git"
+    "url": "git+https://github.com/parisdo/lisa-tangalos-website.git"
   },
   "author": "TeamH",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JoshNavi/teamhproject/issues"
+    "url": "https://github.com/parisdo/lisa-tangalos-website/issues"
   },
-  "homepage": "https://github.com/JoshNavi/teamhproject#readme"
+  "homepage": "https://github.com/parisdo/lisa-tangalos-websitet#readme"
 }
