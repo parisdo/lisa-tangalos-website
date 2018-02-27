@@ -50,10 +50,19 @@ p {
         border-bottom: unset;
         height: unset;
     }
+    .navbar-title {
+        display: inline-block;
+        padding-top: 10px;
+    }
 }
 
 .navbar-light .navbar-toggler {
     border: none;
+    float: right;
+}
+
+.navbar-header {
+    width: 100%;
 }
 
 .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
