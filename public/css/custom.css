@@ -178,6 +178,7 @@ input.submit-btn {
     letter-spacing: .143em;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.6)
+    border: unset;
 }
 
 input.submit-btn:hover {
