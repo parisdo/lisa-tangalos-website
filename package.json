@@ -1,8 +1,8 @@
 {
-  "title": "Lisa Tangalos",
-  "name": "startbootstrap-logo-nav",
-  "version": "4.0.0-beta.2",
-  "description": "Lisa Tangalos' LCSW Website",
+  "name": "Lisa Tangalos",
+  "version": "1.0.0",
+  "description": "LCSW Website",
+  "main": "app.js",
   "keywords": [
     "css",
     "sass",
@@ -12,6 +12,7 @@
     "template"
   ],
   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
       "start": "node app.js"
   },
   "homepage": "https://startbootstrap.com/template-overviews/logo-nav",
@@ -36,6 +37,5 @@
   "devDependencies": {
     "browser-sync": "2.18.13",
     "gulp": "^3.9.1"
-  },
-  "main": "gulpfile.js"
+  }
 }
