@@ -34,6 +34,12 @@ app.get('/services', function (req, res) {
     });
 });
 
+app.get('/resources', function (req, res) {
+    res.render('resources', {
+        title: "Resources"
+    });
+});
+
 app.get('/contact', function (req, res) {
     res.render('contact', {
         title: "Contact"

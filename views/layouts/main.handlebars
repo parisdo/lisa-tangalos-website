@@ -7,9 +7,14 @@
     <meta name="author" content="Paris Do">
 
     <title>Lisa Tangalos | {{title}} </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Bootstrap core CSS -->
-    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
 
     <!-- Custom styles for this template -->
     <link href="/css/fonts.css" rel="stylesheet">
@@ -27,7 +32,7 @@
 
 
 </head>
-<body>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
     {{> nav}}
 
     {{{body}}}
