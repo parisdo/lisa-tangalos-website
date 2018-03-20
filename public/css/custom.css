@@ -110,7 +110,7 @@ p {
 
 .contact-info {
     margin-top: 55px;
-    padding-left: 30px;
+    padding-left: 15px;
 }
 
 label {
@@ -621,4 +621,9 @@ ul.resources-list li {
 .row {
     margin-left: 0px;
     margin-right: 0px;
+}
+
+.col-md-6 {
+    padding-right: 0px;
+    padding-left: 0px;
 }
