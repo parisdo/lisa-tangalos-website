@@ -218,6 +218,7 @@ body {
     font-weight: 300;
     color: rgba(0, 0, 0, 0.6);
     margin-top: 60px;
+    font-size: 24px;
 }
 
 hr.large-title-line {
@@ -269,7 +270,7 @@ h3.page-title {
 
 /***** RESOURCES CSS *****/
 ul.resources-list li {
-    padding-bottom: 8px;
+    padding-bottom: 15px;
 }
 ul.resources-list li > a{
 
@@ -288,13 +289,31 @@ color: rgba(0, 0, 0, 0.5);
     height: auto;
     background: /* top, transparent red, faked with gradient */
     linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), /* bottom, image */
-    url('../images/fog-mt-tam.jpg');
+    url('../images/redwood-trees.jpg');
     background-size: 100% auto;
     background-position: bottom;
 }
 
 @media screen and (max-width: 555px) {
     .services-header {
+        background-size: auto 100%;
+    }
+
+}
+
+
+
+.resources-header {
+    height: auto;
+    background: /* top, transparent red, faked with gradient */
+    linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), /* bottom, image */
+    url('../images/sunny-mt-tam.jpg');
+    background-size: 100% auto;
+    background-position: bottom;
+}
+
+@media screen and (max-width: 555px) {
+    .resources-header {
         background-size: auto 100%;
     }
 
@@ -313,9 +332,9 @@ hr.about-line {
     height: auto;
     background: /* top, transparent red, faked with gradient */
     linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), /* bottom, image */
-    url('../images/flowers.jpg');
+    url('../images/sunset.jpg');
     background-size: 100% auto;
-    background-position: middle;
+    background-position: top;
 }
 
 .year {
@@ -379,9 +398,9 @@ hr.about-line {
     height: auto;
     background: /* top, transparent red, faked with gradient */
     linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), /* bottom, image */
-    url('../images/sunset.jpg');
+    url('../images/sf-bridge.jpg');
     background-size: 100% auto;
-    background-position: middle;
+    background-position: top;
 }
 
 @media screen and (max-width: 485px) {
@@ -408,15 +427,15 @@ hr.about-line {
     height: auto;
     background: /* top, transparent red, faked with gradient */
     linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), /* bottom, image */
-    url('../images/tam.jpg');
+    url('../images/cover-photo.jpg');
     background-size: 100% auto;
     background-position: top;
     padding-top: 250px;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
     margin-bottom: 60px;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 780px) {
     .index-header {
         background-size: auto 100%;
     }
@@ -560,6 +579,8 @@ ul.resources-list li {
     color: rgba(0, 0, 0, 0.5);
     border-radius: 0px;
     border-left: 3px solid transparent;
+    line-height: 22px;
+    padding: 5px 15px;
 }
 
 .page-header.index-header {
@@ -595,8 +616,4 @@ ul.resources-list li {
     text-transform: uppercase;
     letter-spacing: .055em;
     color: rgba(0, 0, 0, 0.6);
-}
-
-.nav {
-    margin-top:
 }
