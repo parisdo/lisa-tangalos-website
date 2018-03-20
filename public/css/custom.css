@@ -617,3 +617,8 @@ ul.resources-list li {
     letter-spacing: .055em;
     color: rgba(0, 0, 0, 0.6);
 }
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
