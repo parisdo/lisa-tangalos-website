@@ -22,81 +22,6 @@ p {
     background-position: middle;
 }
 
-
-/***** NAV BAR CSS *****/
-/*
-.nav-link {
-    border-bottom: 2px solid transparent;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 13px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: .055em;
-    color: rgba(0, 0, 0, 0.6);
-}
-
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    border-bottom: 2.5px solid #5E9ABD;
-    height: 30px;
-}
-
-@media screen and (max-width: 767px) {
-    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-        border-bottom: unset;
-        height: unset;
-    }
-    .navbar-title {
-        display: inline-block;
-        padding-top: 10px;
-    }
-}
-
-.navbar-light .navbar-toggler {
-    border: none;
-    float: right;
-}
-
-.navbar-header {
-    width: 100%;
-}
-
-.navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
-    justify-content: left;
-}
-
-.nav-link:hover {
-    color: black !important;
-}
-
-.navbar-nav .nav-link {
-    text-align: left;
-}
-
-.navbar-title {
-    font-size: 18px;
-    color: black;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: .035em;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.navbar-title:hover {
-    text-decoration: none;
-    color: black;
-}
-
-.navbar {
-    border-bottom: 1px solid lightgrey;
-}
- */
-
 /***** ALL PAGES *****/
 
 .container {
@@ -107,6 +32,14 @@ p {
 
 
 /****** CONTACT PAGE *******/
+
+form .col-md-6 {
+    padding-right: 10px;
+}
+
+label {
+    font-weight: 500;
+}
 
 .contact-info {
     margin-top: 55px;
@@ -192,6 +125,21 @@ input.submit-btn {
 input.submit-btn:hover {
     color: black;
 }
+
+form .col-md-12 {
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+form .col-sm-12 {
+    max-width: unset;
+    float: left;
+
+}
+
+
+
+
 
 
 /***** LAYOUT CSS *****/
@@ -392,7 +340,17 @@ hr.about-line {
 }
 
 
+
+
+
+
+
+
+
 /****** CONTACT CSS ******/
+textarea {
+    padding-right: 10px;
+}
 
 .contact-header {
     height: auto;
