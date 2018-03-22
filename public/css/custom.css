@@ -358,7 +358,7 @@ textarea {
     linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), /* bottom, image */
     url('../images/sf-bridge.jpg');
     background-size: 100% auto;
-    background-position: top;
+    background-position: center;
 }
 
 @media screen and (max-width: 485px) {
