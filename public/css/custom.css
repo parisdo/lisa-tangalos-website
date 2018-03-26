@@ -586,3 +586,8 @@ ul.resources-list li {
     padding-right: 0px;
     padding-left: 0px;
 }
+
+
+.col-sm-12 {
+    width: 100%;
+}
