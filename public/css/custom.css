@@ -591,3 +591,12 @@ ul.resources-list li {
 .col-sm-12 {
     width: 100%;
 }
+
+.navbar-inverse .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-collapse .nav-item {
+    margin-left: 12px;
+    margin-right: 12px;
+}
